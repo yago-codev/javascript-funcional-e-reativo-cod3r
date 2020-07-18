@@ -28,7 +28,7 @@ const potenciaDe2 = potencia(2)
 console.log(potenciaDe2(8))
 
 const resultadoPotencia = potencia(3)(4)
-console.log(resultadoPotencia)
+console.log(`resultado da potencia: ${resultadoPotencia}`)
 
 function somar(primeiroNumero) {
   return function(segundoNumero) {
